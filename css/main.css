@@ -1,0 +1,38 @@
+/*
+color scheme used
+
+#909BD9
+#97B6E3
+#92B9CC main  
+#97DEE3
+#90D9C9
+*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Open+Sans');
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #97B6E3;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: Alegreya, 'Times New Roman', serif;
+}
+.jumbotron{
+    background-color: #97DEE3;
+}
+
+nav{
+    background-color: #90D9C9;
+}
+
+#footer{
+    background-color: #92B9CC;
+}
+
+.card{
+    background-color: #909BD9;
+}

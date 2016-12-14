@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Change the World</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="font/css/iconic-bootstrap.css" /> 
+    <link rel="stylesheet" href="css/main.css"/> </head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light">
+            <div class="hidden-md-up">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+                <div class="collapse" id="exCollapsingNavbar">
+                    <div class="bg-inverse text-muted p-1">
+                        <h4><a class="nav-link" href="./index.html">Home</a></h4>
+                        <h4><a class="nav-link" href="./help.html">Things To Do</a></h4>
+                        <h4><a class="nav-link active" href="./contact.html">Contact</a></h4> </div>
+                </div>
+            </div>
+            <ul class="nav nav-pills hidden-sm-down">
+                <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="help.html">Things To Do</a> </li>
+                <li class="nav-item"> <a class="nav-link active" href="contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+        <form class="pt-1 col-xs-12 col-sm-12 col-md-3">
+            <div class="form-group row form-inline">
+                <label for="example-text-input" class="col-xs-12 col-form-label">Name</label>
+                <div class="col-xs-12">
+                    <input class="form-control" type="text" placeholder="John Doe" id="example-text-input"> </div>
+            </div>
+            <div class="form-group row form-inline">
+                <label for="example-email-input" class="col-xs-12 col-form-label">Email</label>
+                <div class="col-xs-12">
+                    <input class="form-control" type="email" placeholder="email@example.com" id="example-email-input"> </div>
+            </div>
+            <div class="form-group row form-inline">
+                <label for="example-text-input" class="col-xs-12 col-form-label">Address</label>
+                <div class="col-xs-12">
+                    <input class="form-control" type="text" placeholder="123 Main St" id="example-text-input"> </div>
+            </div>
+            <div class="form-group form-inline">
+                <label for="exampleTextarea" class="col-xs-12 col-form-label">Leave A Message</label>
+                <textarea class="form-control col-xs-12" placeholder="Message Goes Here..." id="exampleTextarea" rows="3"></textarea>
+            </div>
+            <div class="col-xs-12 pt-1"><button type="submit" class="btn btn-primary">Submit</button></div>
+        </form> 
+        <div class="col-xs-12 col-sm-12 col-md-9 pt-1">
+           <img width="600" src="http://maps.googleapis.com/maps/api/staticmap?center=600+Pennsylvania+Ave,+washington&zoom=15&scale=1&size=600x300&maptype=roadmap&key=AIzaSyCjdT3Ydwz0VFB5ALc_IcQIWp-d7jcCHaQ&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C600+Pennsylvania+Ave,+washington" alt="Google Map of 600 Pennsylvania Ave, Washington">
+           <ul>
+               <li>Address: 600 Pennnsylvania Ave Washington, USA </li>
+               <li>Contact Number: 123-666-2012</li>
+               <li>Fax: 949-873-8447</li>
+           </ul>
+        </div>
+        
+        
+        
+        
+        <footer id="footer">
+            <div class="container-fluid">
+               <div class="col-xs-12  pt-3"></div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 column">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li> <a href="index.html">Home</a> </li>
+                            <li> <a href="ThingsToDo.html">Things To Do</a> </li>
+                            <li> <a href="Contact.html">Contact</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 column">
+                        <h4>About</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Conditions to Join</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 column">
+                        <h4>Stay Posted</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email"> </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 text-right">
+                        <h4>Follow</h4>
+                        <ul class="list-inline hidden-md-up">
+                            <li>
+                                <a href="https://twitter.com/?lang=en" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-twitter-md.svg"></a>&nbsp;Twitter</li>
+                            <li>
+                                <a href="https://www.facebook.com/" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-facebook-md.svg"></a>&nbsp;Facebook</li>
+                            <li>
+                                <a href="https://www.instagram.com/?hl=en" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-instagram-md.svg"></a>&nbsp;Instagram</li>
+                            <li>
+                                <a href="https://plus.google.com/" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-google-plus-md.svg"></a>&nbsp;Google+</li>
+                        </ul>
+                        <ul class="list-inline hidden-sm-down">
+                            <li>
+                                <a href="https://twitter.com/?lang=en" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-twitter-sm.svg"></a>&nbsp;Twitter</li>
+                            <li>
+                                <a href="https://www.facebook.com/" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-facebook-sm.svg"></a>&nbsp;Facebook</li>
+                            <li>
+                                <a href="https://www.instagram.com/?hl=en" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-instagram-sm.svg"></a>&nbsp;Instagram</li>
+                            <li>
+                                <a href="https://plus.google.com/" type="button" class="btn btn-link"><img class="iconic" data-src="./svg/flattened/social-google-plus-sm.svg"></a>&nbsp;Google+</li>
+                        </ul>
+                    </div>
+                </div>
+                <br/> <span class="pull-right text-muted small">2016 WEBSITE TITLE. All rights reserved</span> </div>
+        </footer>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/iconic.min.js"></script>
+
+</html>
